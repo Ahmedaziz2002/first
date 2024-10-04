@@ -13,6 +13,10 @@ git remote add origin https://github.com/usernamegithub/repository.git
 
 if u are using a proxy add the proxy details to github via:
 git config --global http.proxy http.//proxyip.port 
+to unset the proxy
+git config --global --unset http.proxy
+to check proxy
+git config --global --get http.proxy
 
 git branch-check the local branch if its master change it to main
 git checkout -b main
