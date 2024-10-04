@@ -1,15 +1,15 @@
 Hello I'm going to teach you how to push your projects to github and github
 
 FOR git -github
-1.git config --global user.name "Ahmedaziz2002"
-2.git config --global user.email "ahmedazizomar4@gmail.com"
+1.git config --global user.name "usernamegithub"
+2.git config --global user.email "username@email.com"
 
 This 2 commands link the git to github remote account
 
 Go to github and open a repository without creating a reamme.md file or any file
 git init-initialise a local git repository
 Link your repo with the remote github
-git remote add origin https://github.com/Ahmedaziz2002/repository.git
+git remote add origin https://github.com/usernamegithub/repository.git
 
 if u are using a proxy add the proxy details to github via:
 git config --global http.proxy http.//proxyip.port 
