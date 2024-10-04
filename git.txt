@@ -35,5 +35,14 @@ git commit -m "message"
 
 git push origin main
 
+to switch a local branch use- git checkout branchname before creating another branch make sure you are on the master git checkout master
+
+to delete a local branch use- git branch -d name
+to delete a remote branch use- git push origin --delete name
+
+to remove a local repo use- rm -rf .git
+
+
+
 
 
